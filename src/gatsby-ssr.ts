@@ -121,6 +121,10 @@ export const assembleFontsLink = (fonts: Font[]) => {
     .join('&');
 };
 
+export const setDisplay = (options: Options) => {
+  return options.display ? `&display=${options.display}` : '&display=swap';
+};
+
 /* istanbul ignore next */
 export const onRenderBody = ({ setHeadComponents }: any, options: Options) => {
   // if legacy mode was used and variable font request was found
@@ -139,7 +143,7 @@ export const onRenderBody = ({ setHeadComponents }: any, options: Options) => {
       log(finalFonts.errors);
     }
     const fonts = assembleFontsLink(finalFonts.accepted);
-    link = `${BASE_URL}?${fonts}`;
+    link = `${BASE_URL}?${fonts}${setDisplay(options)}`;
   }
 
   setHeadComponents([
