@@ -1,4 +1,4 @@
-import { checkNoLegacyVariableConflict, formatFontName, getFontWeight, assembleFontsLink, filterFonts } from '../gatsby-ssr';
+import { checkNoLegacyVariableConflict, formatFontName, getFontWeight, assembleFontsLink, filterFonts } from '../functions';
 
 describe('Check legacy / variable conflict resolution', () => {
   it('no conflict', () => {
