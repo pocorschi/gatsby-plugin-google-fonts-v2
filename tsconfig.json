@@ -14,7 +14,7 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "typeRoots": ["./node_modules/@types"],
-    "types": ["node"],
+    "types": ["node", "jest"],
     "esModuleInterop": true,
     "noEmit": false,
     "noEmitOnError": true,
@@ -24,5 +24,5 @@
     "skipLibCheck": true
   },
   "include": ["./src/**/*"],
-  "exclude": ["./node_modules/*"]
+  "exclude": ["node_modules", "__TESTS__", "**/*.test.ts"]
 }
