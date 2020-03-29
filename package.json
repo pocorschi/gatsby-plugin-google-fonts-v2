@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-google-fonts-v2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "author": "Mihai Pocorschi <mihai@pocorschi.com>",
   "bugs": {
