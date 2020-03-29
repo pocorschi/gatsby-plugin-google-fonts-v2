@@ -17,7 +17,7 @@ export const onRenderBody = ({ setHeadComponents }: any, options: Options) => {
 
   if (!options.legacy) {
     const finalFonts = filterFonts(options);
-    if (finalFonts.errors && options.verbose) {
+    if (finalFonts.errors.length > 0 && options.verbose) {
       log('The following fonts/weights were not loaded');
       log(finalFonts.errors);
     }
