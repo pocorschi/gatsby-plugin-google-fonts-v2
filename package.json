@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-google-fonts-v2",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "main": "index.js",
   "author": "Mihai Pocorschi <mihai@pocorschi.com>",
   "bugs": {
@@ -9,22 +9,23 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc -b",
+    "prepare": "npm run build",
     "watch": "tsc -watch",
     "test": "jest --watch",
     "coverage": "jest --coverage"
   },
   "devDependencies": {
-    "@types/node": "^13.9.5",
-    "babel-jest": "^25.2.3",
+    "@types/node": "^13.11.0",
+    "babel-jest": "^25.2.6",
     "babel-preset-gatsby": "^0.3.1",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^25.2.3",
+    "jest": "^25.2.7",
     "react": "^16.13.1",
     "react-test-renderer": "^16.13.1",
-    "typescript": "^3.6.4"
+    "typescript": "^3.8.3"
   },
   "peerDependencies": {
-    "gatsby": ">2.0.0-alpha"
+    "gatsby": "^2.20.12"
   },
   "homepage": "https://github.com/pocorschi/gatsby-plugin-google-fonts-v2",
   "keywords": [
@@ -37,10 +38,10 @@
   ],
   "repository": "https://github.com/pocorschi/gatsby-plugin-google-fonts-v2",
   "dependencies": {
-    "@types/jest": "^25.1.4",
-    "@types/react": "^16.9.26",
+    "@types/jest": "^25.2.1",
+    "@types/react": "^16.9.32",
     "babel-preset-gatsby-package": "^0.3.1",
-    "gatsby-plugin-ts": "^2.0.1",
-    "ts-jest": "^25.2.1"
+    "gatsby-plugin-ts": "^2.7.0",
+    "ts-jest": "^25.3.1"
   }
 }
