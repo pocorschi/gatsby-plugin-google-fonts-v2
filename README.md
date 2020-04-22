@@ -61,7 +61,7 @@ Font options:
 - Regular font
 
   - `['300']`- will load the 300 weight
-  - `[300, 900]` - will load the 300 and 900 weights
+  - `['300', '900']` - will load the 300 and 900 weights
 
 - Variable font
   - `['200..500']` - will load the non-italic version with all weights between 200 and 500
