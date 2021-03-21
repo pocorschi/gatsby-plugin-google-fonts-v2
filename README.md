@@ -77,7 +77,7 @@ plugins: [
 
 ## Related
 
-> [GatsbyJS](https://www.gatsbyjs.com) - Website GatsbyJS <br/> >[Gatsby Plugin Google Fonts - v2](https://www.gatsbyjs.com/plugins/gatsby-plugin-google-fonts-v2/) - Plugin in GatsbyJS <br/> >[Google Fonts](https://fonts.google.com/) - Website Google Fonts
+> [GatsbyJS](https://www.gatsbyjs.com) - Website GatsbyJS <br/> [Gatsby Plugin Google Fonts - v2](https://www.gatsbyjs.com/plugins/gatsby-plugin-google-fonts-v2/) - Plugin in GatsbyJS <br/> [Google Fonts](https://fonts.google.com/) - Website Google Fonts
 
 ---
 
