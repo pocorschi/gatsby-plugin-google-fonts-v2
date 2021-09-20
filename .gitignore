@@ -1,7 +1,6 @@
 /*.js
 /*.ts
 /*.map
-!index.ts
 yarn.lock
 coverage
 *.log
