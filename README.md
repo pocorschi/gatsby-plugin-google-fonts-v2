@@ -6,6 +6,10 @@
   <br>
 </h1>
 
+=====================================
+=======LOOKING FOR MAINTAINERS=======
+=====================================
+
 A simple **GatsbyJS** plugin that loads **Google Fonts** using the new **v2 API**. It also supports importing variable size fonts.
 
 ## 🖖🏻 Install
